@@ -1,0 +1,270 @@
+/* Estilos para pantallas extra-pequeñas (xs) */
+.dropdown-menu {
+    min-width: auto;
+    /* Ajusta automáticamente el ancho según el contenido */
+}
+
+/* Estilos para pantallas pequeñas (sm) */
+@media (min-width: 576px) {
+    .dropdown-menu {
+        min-width: 10rem;
+        /* Establece un ancho mínimo de 10 rem */
+    }
+}
+
+/* Estilos para pantallas medianas (md) */
+@media (min-width: 768px) {
+    .dropdown-menu {
+        min-width: 15rem;
+        /* Establece un ancho mínimo de 15 rem */
+    }
+}
+
+/* Estilos para pantallas grandes (lg) */
+@media (min-width: 992px) {
+    .dropdown-menu {
+        min-width: 50rem;
+        /* Establece un ancho mínimo de 20 rem */
+    }
+}
+
+/* Estilos para pantallas extra-grandes (xl) */
+@media (min-width: 1200px) {
+    .dropdown-menu {
+        min-width: 50rem;
+        /* Establece un ancho mínimo de 25 rem */
+    }
+}
+
+/* Estilos para pantallas extra-extra-grandes (xxl) */
+@media (min-width: 1400px) {
+    .dropdown-menu {
+        min-width: 50rem;
+        /* Establece un ancho mínimo de 30 rem */
+    }
+}
+
+
+.parallax-container {
+    background-image: url('../img/Parallax.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-attachment: fixed;*/
+}
+
+@media (max-width: 768px) {
+    .parallax-container {
+        height: auto;
+    }
+}
+
+.parallax {
+    background-image: url('../img/Contacto.jpg');
+    background-size: cover;
+    height: 400px;
+    /* o la altura deseada */
+}
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #012595;
+
+}
+
+.btn-blue {
+    color: #FFF;
+    background-color: #0e0ea8;
+    border-color: #0e0ea8;
+}
+
+.text-blue {
+    color: #012595;
+}
+
+.text-black {
+    color: #111;
+}
+
+.bg-white-color {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.text-black {
+    color: #111;
+}
+
+.dropdown-menu a:hover {
+    background-color: #416EE6;
+    /* Cambia el color al que desees */
+}
+
+.dropdown-menu a:hover p {
+    color: white;
+    /* Cambia el color al que desees */
+}
+
+.texto-subrayado {
+    text-align: center;
+    /* centra el contenido horizontalmente */
+    width: 50%;
+    /* ajusta el ancho del contenedor según tus necesidades */
+    margin: 0 auto;
+    /* centra el contenedor horizontalmente */
+}
+
+.texto-subrayado h4 {
+    display: inline-block;
+    /* hace que el título se comporte como un elemento en línea */
+    position: relative;
+    /* establece la posición relativa para poder posicionar el subrayado */
+    /* quita el margen por defecto */
+    text-decoration-thickness: 0.2em;
+}
+
+.texto-subrayado h4::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0.4em;
+    background-color: #FFA328;
+    position: absolute;
+    bottom: -0.8em;
+    /* ajusta el espacio aquí */
+    right: -0.3em;
+    /* ajusta la posición diagonal aquí */
+    transform: skew(-30deg);
+    /* agrega la diagonalización */
+    left: 0;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.transparent {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 29px;
+    right: 90px;
+    z-index: 9999;
+    width: 45px;
+    height: 45px;
+    background-color: #25D366;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    line-height: 45px;
+    /* Ajusta la altura del botón al tamaño del ícono */
+    border-radius: 50%;
+}
+
+.whatsapp-float:hover {
+    background-color: #128c7e;
+    color: #FFF;
+    box-shadow: 2px 2px 3px #666;
+    text-decoration: none;
+}
+
+.whatsapp-float i {
+    font-size: 25px;
+}
+
+.animated {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.animated.active {
+    opacity: 1;
+}
+
+.card {
+    max-width: 400px;
+    margin: auto;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: auto;
+    border: 4px solid #ddd;
+    border-radius: 50%;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.angkor {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 800;
+}
+
+.asap-bold {
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+}
+
+.alegreya-bold {
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 800;
+
+}
+
+.alegreya-italic {
+    font-family: 'Alegreya', sans-serif;
+    font-style: italic;
+}
+
+.roboto-italic {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+}
+
+.roboto-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.roboto-italic-bold {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.card:hover {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 10px #9b9b9b;
+}
+
+.size-flag {
+    color: #4848FF;
+    font-size: 3rem;
+}
+
+.size-eye {
+    color: #FF0000;
+    font-size: 3rem;
+}
+
+.size-gem {
+    color: #333333;
+    font-size: 3rem;
+}
