@@ -7,7 +7,7 @@
     <title>Nosotros</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="../img/logoTranstools.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="img/logoTranstools.png" />
     <!-- Place favicon.ico in the root directory -->
 
     <!-- Web Font -->
@@ -21,14 +21,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap" rel="stylesheet">
 
     <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="../assets/css/animate.css" />
-    <link rel="stylesheet" href="../node_modules/tiny-slider/dist/tiny-slider.css" />
-    <link rel="stylesheet" href="../node_modules/glightbox/dist/css/glightbox.min.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="node_modules/tiny-slider/dist/tiny-slider.css" />
+    <link rel="stylesheet" href="node_modules/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/viewerjs/dist/viewer.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
@@ -63,8 +65,7 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="index.html"
-                                            aria-label="Toggle navigation">Inicio</a>
+                                        <a href="index.html">Inicio</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class=" dd-menu collapsed" href="javascript:void(0)"
@@ -74,50 +75,56 @@
                                         <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
                                             <h3 class="text-center">Lista de soluciones</h3>
                                             <li class="single-block">
-                                                <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
-                                                    <h3 class="text-center">Lista de soluciones</h3>
-                                                    <li class="single-block">
-                                                        <ul>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Cajas.html">Cajas</a></li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Encortinados_Laterales.html">Encortinados
-                                                                    laterales</a>
-                                                            </li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Plataformas.html">Plataformas</a>
-                                                            </li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Lowboys.html">Lowboys</a></li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Portacontenedor.html">Chasis
-                                                                    Portacontenedor</a></li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Camas_Bajas.html">Camas bajas</a>
-                                                            </li>
-                                                        </ul>
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Cajas.html">Cajas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Encortinados_Laterales.html">Encortinados
+                                                            laterales</a>
                                                     </li>
-                                                    <li class="single-block">
-                                                        <ul>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Volteos.html">Volteos</a>
-                                                            </li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Jaulas.html">Jaulas</a></li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Carrocerías.html">Carrocerías</a>
-                                                            </li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Tanques.html">Tanques</a>
-                                                            </li>
-                                                            <li class="nav-item"><a
-                                                                    href="Productos/Dollys.html">Dollys</a>
-                                                        </ul>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Plataformas.html">Plataformas</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Lowboys.html">Lowboys</a>
+                                                    </li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Chasis_Portacontenedor.html">Chasis
+                                                            Portacontenedor</a></li>
+                                                    <li class="nav-item"><a href="Productos/Camas_Bajas.html">Camas
+                                                            bajas</a>
                                                     </li>
                                                 </ul>
+                                            </li>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Volteos.html">Volteos</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Jaulas.html">Jaulas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Carrocerías.html">Carrocerías</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Tanques.html">Tanques</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Dollies.html">Dollies</a>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Nosotros.html" class=" active dd-menu collapsed"
+                                            aria-label="Toggle navigation">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Proceso.html" aria-label="Toggle navigation">Proceso</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Contacto.html" aria-label="Toggle navigation">Contacto</a>
+                                    </li>
+                                    <!--li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Blog</a>
+                                    </li-->
+                                </ul>
                             </div> <!-- navbar collapse -->
 
-                        </nav> <!-- navbar -->
                     </div>
                 </div>
             </div> <!-- row -->
@@ -149,8 +156,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-lg-6 col-md-12 col-12">
                     <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
-                        <img src="../img/Acerca de.jpg" alt="#">
-                        <a href="" class="glightbox video"><i class="lni lni-play"></i></a>
+                        <img src="img/Acerca_de.jpg" alt="#">
+                        <!--a href="" class="glightbox video"><i class="lni lni-play"></i></a-->
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-12 col-12">
@@ -176,101 +183,109 @@
         </div>
     </section>
     <!-- End About Area -->
-    <div>
-        <div class="container-fluid">
-            <div class="animated">
-                <h1 class="display-5 text-center alegreya-bold text-center">Filosofía Transtools</h1>
-                <hr class="my-4">
-                <div class="avatar mt-3">
-                    <img src="../img/Objetivo.png" alt="Avatar" class="rounded-circle">
-                </div>
-                <div class="texto-subrayado mb-5 mt-3">
-                    <h4 class="asap-bold">Objetivo</h4>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-                        <p class="text-justify roboto-italic pb-4">"Liderar la industria de manufactura nacinal de
+    <!-- Start How Works Area -->
+    <section class="how-works section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Nuestro Objetivo</h2>
+                        <p class="wow fadeInUp text-justify data-wow-delay=" .6s">"Liderar la industria de manufactura
+                            nacinal de
                             semi-remolques por medio del desarrollo de proyectos, desde el diseño hasta la manufactura y
                             que estos se conviertan en aliados y nuevos estándares de nuestros clientes."</p>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4"></div>
                 </div>
-                <hr class="my-4">
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <div class="card border-1 mb-3">
-                        <div class="card-header bg-transparent border-0">
-                            <div class="text-center pt-4">
-                                <i class="bi bi-flag-fill size-flag"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title text-center alegreya-bold">Misión</h5>
-                            <p class="card-text pt-3 text-justify roboto-bold">Nuestra <strong>Misión</strong>
-                                es fabricar herramientas para el autotransporte de carga que ofrezcan soluciones
-                                sencillar y poderosas que ayuden a nuestros clientes a mantenerse a la vanguardia de la
-                                industria nacional.
-                            </p>
-                            <br>
-                            <br>
-                        </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp pb-4" data-wow-delay=".2s">
+                        <span class="serial">
+                            <i class="bi bi-flag-fill size-flag"></i></span>
+                        <h3>Misión</h3>
+                        <p class="text-justify roboto-bold">Nuestra <strong>Misión</strong>
+                            es fabricar herramientas para el autotransporte de carga que ofrezcan soluciones
+                            sencillar y poderosas que ayuden a nuestros clientes a mantenerse a la vanguardia de la
+                            industria nacional.</p>
+                        <br>
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp" data-wow-delay=".4s">
+                        <span class="serial"><i class="bi bi-eye-fill size-eye"></i></span>
+                        <h3>Visión</h3>
+                        <p class="text-justify roboto-bold pb-4 mb-2">Nuestra <strong>Visión</strong> es ser la
+                            marca más prestigiosa desarrolladora de ingenieria para el autotransporte de carga
+                            nacional.</p>
+                        <br>
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <!-- Start Single Work -->
+                    <div class="single-work wow fadeInUp" data-wow-delay=".6s">
+                        <span class="serial">
+                            <i class="bi bi-gem size-gem"></i></span>
+                        <h3>Valores</h3>
+                        <ul class="pt-3">
+                            <li class="text-justify roboto-bold"><strong>Proactividad:</strong> Toma el control y
+                                has que las
+                                cosas
+                                sucedan.
+                            </li>
+                            <li class="text-justify roboto-bold"><strong>Autocritica: </strong>Podemos equivocarnos,
+                                pero
+                                también
+                                podemos enmendarnos.
+                            </li>
+                            <li class="text-justify roboto-bold"><strong>Simplicidad:</strong> Cuando no hay nada
+                                que añadir,
+                                nada
+                                que eliminar.
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End Single Work -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End How Works Area -->
+    <!-- Start Achievement Area -->
+    <section class="our-achievement section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".2s">
+                        <h3 class="counter"><span id="secondo1" class="countup" cup-end="1250">100</span>%</h3>
+                        <p>Materiales 1ra Calidad</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-1">
-                        <div class="card-header bg-transparent border-0">
-                            <div class="text-center pt-4">
-                                <i class="bi bi-eye-fill size-eye"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title text-center alegreya-bold">Visión</h5>
-                            <p class="card-text pt-3 text-justify roboto-bold">Nuestra <strong>Visión</strong> es ser la
-                                marca más prestigiosa desarrolladora de ingenieria para el autotransporte de carga
-                                nacional.
-                            </p>
-                            <br>
-                            <br>
-                            <br>
-                        </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".4s">
+                        <h3 class="counter"><span id="secondo2" class="countup" cup-end="350">100</span>%</h3>
+                        <p>Atención al cliente</p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="card border-1 mb-3">
-                        <div class="card-header bg-transparent border-0">
-                            <div class="text-center pt-4">
-                                <i class="bi bi-gem size-gem"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title text-center alegreya-bold">Valores</h5>
-                            <ul class="pt-3">
-                                <li class="text-justify roboto-bold"><strong>Proactividad:</strong> Toma el control y
-                                    has que las
-                                    cosas
-                                    sucedan.
-                                </li>
-                                <li class="text-justify roboto-bold"><strong>Autocritica: </strong>Podemos equivocarnos,
-                                    pero
-                                    también
-                                    podemos enmendarnos.
-                                </li>
-                                <li class="text-justify roboto-bold"><strong>Simplicidad:</strong> Cuando no hay nada
-                                    que añadir,
-                                    nada
-                                    que eliminar.
-                                </li>
-                            </ul>
-                        </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                        <h3 class="counter"><span id="secondo3" class="countup" cup-end="2500">100</span>%</h3>
+                        <p>Personal Calificado</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                        <h3 class="counter"><span id="secondo3" class="countup" cup-end="250">100</span>%</h3>
+                        <p>Soluciones Innovadoras</p>
                     </div>
                 </div>
             </div>
-
         </div>
-
-    </div>
+    </section>
+    <!-- End Achievement Area -->
     <!-- Start Footer Area -->
     <footer class="footer mt-4">
         <!-- Start Footer Top -->
@@ -284,14 +299,22 @@
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <ul>
-                                        <li><a href="javascript:void(0)">Puebla</a></li>
-                                        <li><a href="javascript:void(0)">Tlaxcala</a></li>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Puebla</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">Tlaxcala</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-12">
                                     <ul>
-                                        <li><a href="javascript:void(0)">Amozoc de Mota</a></li>
-                                        <li><a href="javascript:void(0)">El Carmen Tequexquitla</a></li>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Amozoc de Mota</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">El Carmen Tequexquitla</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
                                 </div>
                             </div>
                         </div>
@@ -303,8 +326,9 @@
                             <h3>Enlaces Rápidos</h3>
                             <ul>
                                 <li><a href="index.html">Inicio</a></li>
+                                <li><a href="Proceso.html">Proceso</a></li>
                                 <li><a href="Contacto.html">Contacto</a></li>
-                                <li><a href="javascript:void(0)">Blog</a></li>
+                                <!--li><a href="javascript:void(0)">Blog</a></li-->
                             </ul>
                         </div>
                         <!-- End Single Widget -->
@@ -332,9 +356,9 @@
                         <div class="col-12">
                             <div class="content">
                                 <ul class="footer-bottom-links">
-                                    <li><a href="javascript:void(0)">Términos de uso</a></li>
-                                    <li><a href="javascript:void(0)"> Prolítica de privacidad</a></li>
-                                    <li><a href="javascript:void(0)">Google maps</a></li>
+                                    <li><a href="Aviso_de_Privacidad.html"> Política de privacidad</a></li>
+                                    <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                            target="_blank">Google maps</a></li>
                                 </ul>
                                 <ul class="footer-social">
                                     <li><a href="https://www.facebook.com/TranstoolsManufacturing/" target="_blank"><i
@@ -365,17 +389,23 @@
         <i class="lni lni-chevron-up"></i>
     </a>
     <div>
-        <a href="https://wa.me/+527352065016" class="whatsapp-float" target="_blank" title="Contactar">
+        <a href="https://wa.me/+522229000107" class="whatsapp-float" target="_blank" title="Contactar">
             <i class="bi bi-whatsapp"></i>
         </a>
     </div>
 
     <!-- ========================= JS here ========================= -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../node_modules/wow.js/dist/wow.min.js"></script>
-    <script src="../node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
-    <script src="../node_modules/glightbox/dist/js/glightbox.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="node_modules/easing/easing.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="node_modules/waypoints/src/waypoint.js"></script>
+    <script src="node_modules/counterup/counterup.min.js"></script>
+    <script src="node_modules/viewerjs/dist/viewer.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript">
         //========= glightbox
         GLightbox({
@@ -390,28 +420,3 @@
 
 
 </html>
-<script>
-    window.addEventListener('scroll', function () {
-        var section = document.querySelector('.animated');
-        var position = section.getBoundingClientRect();
-
-        // Si la sección está visible en la pantalla, activa la clase "active"
-        if (position.top < window.innerHeight && position.bottom >= 0) {
-            section.classList.add('active');
-        }
-    });
-    // Selecciona todos los enlaces del navbar
-    const links = document.querySelectorAll('.nav-link');
-
-    // Agrega un event listener a cada enlace
-    links.forEach((link) => {
-        link.addEventListener('click', function () {
-            // Remueve la clase "active" del enlace actualmente activo
-            const currentActive = document.querySelector('.nav-link.active');
-            currentActive.classList.remove('active');
-
-            // Agrega la clase "active" al enlace que se hizo clic
-            this.classList.add('active');
-        });
-    });
-</script>

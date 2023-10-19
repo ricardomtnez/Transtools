@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proceso</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logoTranstools.png" />
+    <!-- Web Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap" rel="stylesheet">
+
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="node_modules/tiny-slider/dist/tiny-slider.css" />
+    <link rel="stylesheet" href="node_modules/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/viewerjs/dist/viewer.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- /End Preloader -->
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="img/fullLogo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn border-0" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                    <li class="nav-item">
+                                        <a href="index.html">Inicio</a>
+                                    </li>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Productos</a>
+                                        <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
+                                            <h3 class="text-center">Lista de soluciones</h3>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Cajas.html">Cajas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Encortinados_Laterales.html">Encortinados
+                                                            laterales</a>
+                                                    </li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Plataformas.html">Plataformas</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Lowboys.html">Lowboys</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Chasis_Portacontenedor.html">Chasis
+                                                            Portacontenedor</a></li>
+                                                    <li class="nav-item"><a href="Productos/Camas_Bajas.html">Camas
+                                                            bajas</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Volteos.html">Volteos</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Jaulas.html">Jaulas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Carrocerías.html">Carrocerías</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Tanques.html">Tanques</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Dollies.html">Dollies</a>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Nosotros.html" aria-label="Toggle navigation">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class=" active dd-menu collapsed"
+                                            aria-label="Toggle navigation">Proceso</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="Contacto.html" aria-label="Toggle navigation">Contacto</a>
+                                    </li>
+                                    <!--li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Blog</a>
+                                    </li-->
+                                </ul>
+                            </div> <!-- navbar collapse -->
+
+                        </nav> <!-- navbar -->
+                    </div>
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Breadcrumbs -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="breadcrumbs-content">
+                        <h1 class="page-title">Proceso</h1>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <ul class="breadcrumb-nav">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li>Proceso</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Breadcrumbs -->
+    <!-- Start About Area -->
+    <section class="about-us how-works section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                    aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="img/Proceso/proceso_1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/proceso_2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/proceso_3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="6000">
+                                    <img src="img/Proceso/proceso_4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 1</span>
+                        <h2>Modelado</h2>
+                        <p class="text-justify">El proceso de modelado es el primer paso fundamental en la fabricación
+                            de
+                            nuestros productos (Semi-remolques). En esta etapa, nuestro equipo de diseñadores altamente
+                            capacitados utiliza su
+                            creatividad y conocimientos técnicos para dar vida a las ideas y necesidades de nuestros
+                            clientes.</p>
+                        <h3>¿Qué hacemos?</h3>
+                        <p class="text-justify">Nuestros diseñadores utilizan software especializado para construir
+                            modelos
+                            virtuales en 3D de las soluciones de autotransporte de carga que ofertamos, teniendo en
+                            cuenta aspectos como la <strong class="text-blue">aerodinámica</strong>, la
+                            <strong class="text-blue">ergonomía</strong>, la <strong
+                                class="text-blue">seguridad</strong> y el <strong class="text-blue">estilo</strong>. Se
+                            realizan múltiples iteraciones y revisiones para
+                            refinar y perfeccionar el diseño antes de pasar a la siguiente fase.
+                        </p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading">Etapa 2</span>
+                        <h2>Análisis de elementos finitos</h2>
+                        <p class="text-justify">El <strong class="text-blue">análisis de elementos finitos</strong> es
+                            una técnica de ingeniería utilizada
+                            en nuestro proceso de fabricación de un semi-remolque. Consiste en
+                            descomponer una
+                            estructura compleja en elementos más pequeños y discretos para realizar cálculos detallados
+                            y precisos sobre su comportamiento.</p>
+                        <h3>¿Para qué la utilizamos?</h3>
+                        <p class="text-justify">Utilizamos el análisis de elementos finitos para <strong
+                                class="text-blue">evaluar</strong> la <strong class="text-blue">resistencia
+                                estructural</strong>, la <strong class="text-blue">rigidez</strong>, la <strong
+                                class="text-blue">durabilidad</strong> y
+                            otros aspectos clave. Mediante la aplicación de cargas y condiciones de
+                            contorno específicas, nuestros ingenieros pueden <strong class="text-blue">simular</strong>
+                            y <strong class="text-blue">predecir</strong> cómo el semi-remolque
+                            <strong class="text-blue">responderá</strong> a
+                            diferentes <strong class="text-blue">situaciones</strong> y <strong
+                                class="text-blue">escenarios</strong>.
+                        </p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <div id="carousel2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"
+                                    aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="img/Proceso/element_1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/element_2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/element_3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carousel2"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start How Works Area -->
+    <section class="how-works-2 section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Importancia en nuestro proceso</h2>
+                        <p class="wow fadeInUp text-justify data-wow-delay=" .6s">"El <strong class="text-blue">análisis
+                                de elementos finitos</strong> nos
+                            <strong class="text-blue">ayuda</strong> a <strong class="text-blue">optimizar</strong> el
+                            <strong class="text-blue">diseño</strong> de los <strong
+                                class="text-blue">semi-remolques</strong>, identificar <strong class="text-blue">áreas
+                                de posible mejora</strong> y
+                            <strong class="text-blue">garantizar</strong> que
+                            cumpla con los <strong class="text-blue">estándares</strong> de <strong
+                                class="text-blue">seguridad</strong> y <strong class="text-blue">rendimiento</strong>
+                            requeridos. Esto permite <strong class="text-blue">reducir</strong> el
+                            <strong class="text-blue">tiempo</strong> y los <strong class="text-blue">costos</strong>
+                            asociados con <strong class="text-blue">pruebas físicas</strong>, al tiempo que <strong
+                                class="text-blue">asegura</strong> la <strong class="text-blue">calidad</strong> y
+                            <strong class="text-blue">confiabilidad</strong> del producto final."
+                        </p>
+                        <img src="img/Proceso/element_4.gif" alt="Análisis de elementos finitos"
+                            class="img-fluid rounded-circle">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End How Works Area -->
+    <!-- Start About Area -->
+    <section class="about-us how-works section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <img src="img/Proceso/Etapa_3.gif" alt="Procesamiento y corte de materiales">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 3</span>
+                        <h2>Procesamiento y corte de materiales</h2>
+                        <p class="text-justify">En esta etapa vital, las piezas toman vida. Con
+                            técnicas y herramientas especializadas, los materiales seleccionados son cortados y
+                            moldeados con precisión. <br>
+                            Las máquinas de corte por plasma y láser hacen su trabajo, creando cortes limpios y exactos,
+                            mientras que el doblado y conformado de los materiales añaden esa forma única que define el
+                            semi-remolque.</p>
+                        <p class="text-justify mt-2">Aquí es donde la creatividad se fusiona con la precisión técnica,
+                            asegurando la calidad y
+                            eficiencia en la fabricación. El procesamiento y corte de piezas es el pilar de un resultado
+                            excepcional.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading">Etapa 4</span>
+                        <h2>Soldadura y Armado</h2>
+                        <p class="text-justify">En esta etapa, mediante la
+                            <strong class="text-blue">soldadura precisa</strong> y el <strong class="text-blue">armado
+                                meticuloso</strong>, cada componente se une para <strong
+                                class="text-blue">formar</strong> una <strong class="text-blue">estructura
+                                sólida</strong> y <strong class="text-blue">confiable</strong>.
+                        </p>
+                        <p class="text-justify">La soldadura se realiza con destreza y precisión, utilizando técnicas
+                            avanzadas para crear
+                            uniones resistentes y duraderas. Los expertos ensamblan minuciosamente cada
+                            componente para que encaje en el lugar que corresponde.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <img src="img/Proceso/Etapa_4.gif" alt="Soldadura y Armado">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <img src="img/Proceso/Etapa_5.gif" alt="Soldadura y Armado">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 5</span>
+                        <h2>Limpieza y Pintura</h2>
+                        <p class="text-justify mt-2">Se limpian las unidades para eliminar cualquier residuo e
+                            imperfección y preparar la
+                            superficie
+                            para la aplicación de pintura. Cada rincón y detalle se atiende, dejando la unidad impecable
+                            y lista para el siguiente paso.</p>
+                        <p class="text-justify mt-2">La pintura es aplicada para
+                            lograr un acabado uniforme y de alta calidad. Además de mejorar la estética, la pintura
+                            protege la unidad contra los elementos y prolonga su vida útil.</p>
+                        <p class="text-justify mt-2">Cada unidad es tratada con dedicación y profesionalismo,
+                            garantizando un aspecto impecable y
+                            protección
+                            duradera para enfrentar cualquier desafío en la carretera.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us how-works section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 6</span>
+                        <h2>Instalación de sistemas, componentes y publicidad</h2>
+                        <p class="text-justify">Se instalan los sistemas y componentes adicionales necesarios en el
+                            semi-remolque, como los sistemas de suspensión, frenos, luces, sistemas eléctricos y
+                            neumáticos, entre otros.</p>
+                        <p class="text-justify mt-2">La instalación de sistemas y componentes es la etapa en la que el
+                            semi-remolque toma su forma
+                            final. En esta etapa se garantiza que el semi-remolque esté listo
+                            para enfrentar los desafíos y ofrecer un rendimiento excepcional.</p>
+                        <p class="text-justify mt-2">Además, se añade un toque final de personalización al semi-remolque
+                            mediante la colocación
+                            estratégica de publicidad y gráficos.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                       <img src="img/Proceso/Etapa_6.gif" alt="INstalación de sistemas">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <img src="img/Proceso/Etapa_7.gif" alt="Control de calidad">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 7</span>
+                        <h2>Control de calidad</h2>
+                        <p class="text-justify mt-2">Este proceso de control de calidad garantiza la entrega de un
+                            producto confiable y de calidad superior a nuestros clientes. Cada semi-remolque que pasa
+                            por esta etapa ha superado pruebas rigurosas y está listo para cumplir con las expectativas
+                            más exigentes.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <!-- Start About Area -->
+    <section class="about-us how-works section">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-6 col-md-12 col-12">
+                    <!-- content-1 start -->
+                    <div class="content-right wow fadeInRight" data-wow-delay=".5s">
+                        <!-- Heading -->
+                        <span class="sub-heading2">Etapa 8</span>
+                        <h2>Entrega</h2>
+                        <p class="text-justify">La etapa de Entrega es un momento emocionante y gratificante tanto para
+                            nuestros clientes como para nosotros. Es la culminación de un proceso de fabricación
+                            meticuloso y el comienzo de una nueva asociación con nuestros clientes.</p>
+                        <p class="text-justify mt-2">En el momento de la entrega, nuestros expertos proporcionan una
+                            atención personalizada para
+                            asegurarse de que el cliente esté completamente satisfecho con su adquisición.</p>
+                        <!-- End Heading -->
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-12">
+                    <div class="content-left wow fadeInLeft" data-wow-delay=".3s">
+                        <div id="carouselEtapa8" class="carousel carousel-light slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselEtapa8" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselEtapa8" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselEtapa8" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active" data-bs-interval="5000">
+                                    <img src="img/Proceso/Etapa_8_1.jpg" class="d-block w-100" alt="Etapa 8">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/Etapa_8_2.jpg" class="d-block w-100" alt="Etapa 8">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="5000">
+                                    <img src="img/Proceso/Etapa_8_3.jpg" class="d-block w-100" alt="Etapa 8">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEtapa8"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEtapa8"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About Area -->
+    <br>
+    <br>
+    <br>
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>Ubicaciones</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Puebla</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">Tlaxcala</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Amozoc de Mota</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">El Carmen Tequexquitla</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>Enlaces Rápidos</h3>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="Nosotros.html">Nosotros</a></li>
+                                <li><a href="Contacto.html">Contacto</a></li>
+                                <!--li><a href="javascript:void(0)">Blog</a></li-->
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-contact">
+                            <h3>Contacto</h3>
+                            <ul>
+                                <li>Carril de San Cristóbal #126, Chachapa, 72990<br> Amozoc, Puebla</li>
+                                <li>Tel. (222) 286 6275 <br> E-mail. ventas@transtools.com.mx</li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <ul class="footer-bottom-links">
+                                    <li><a href="Aviso_de_Privacidad.html"> Política de privacidad</a></li>
+                                    <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                            target="_blank">Google maps</a></li>
+                                </ul>
+                                <ul class="footer-social">
+                                    <li><a href="https://www.facebook.com/TranstoolsManufacturing/" target="_blank"><i
+                                                class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="https://www.instagram.com/transtoolsmanufacturing/" target="_blank"><i
+                                                class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/transtoolsmexicopuebla/?originalSubdomain=mx"
+                                            target="_blank"><i class="lni lni-linkedin-original"></i></a></li>
+                                </ul>
+                                <p class="copyright-text"><strong class="text-black alegreya-bold">TRANS</strong><strong
+                                        class="alegreya-bold text-blue">TOOLS</strong>
+                                    <strong class="text-black alegreya-bold">MANUFACTURING</strong> © 2023. Todos los
+                                    derechos reservados.
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top btn-hover">
+        <i class="lni lni-chevron-up"></i>
+    </a>
+    <div>
+        <a href="https://wa.me/+522229000107" class="whatsapp-float" target="_blank" title="Contactar">
+            <i class="bi bi-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- ========================= JS here ========================= -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="node_modules/easing/easing.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="node_modules/waypoints/src/waypoint.js"></script>
+    <script src="node_modules/counterup/counterup.min.js"></script>
+    <script src="node_modules/viewerjs/dist/viewer.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

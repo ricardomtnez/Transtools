@@ -83,6 +83,26 @@
     color: #012595;
 }
 
+.text-brown {
+    color: #b700fff5;
+}
+
+.text-red {
+    color: #ab0a2f;
+}
+
+.text-pink {
+    color: #df4367;
+}
+
+.text-blue-light {
+    color: #006987;
+}
+
+.text-yellow {
+    color: #ffc400;
+}
+
 .text-black {
     color: #111;
 }
@@ -90,6 +110,11 @@
 .bg-white-color {
     background-color: rgba(255, 255, 255, 0.6);
 }
+
+.bg-blue-color {
+    background-color: #0e0ea8;
+}
+
 
 .text-black {
     color: #111;
@@ -179,6 +204,10 @@
     font-size: 25px;
 }
 
+.icons {
+    font-size: 100px;
+}
+
 .animated {
     opacity: 0;
     transition: opacity 1s ease-in-out;
@@ -255,16 +284,33 @@
 }
 
 .size-flag {
-    color: #4848FF;
+    color: #0e0ea8;
     font-size: 3rem;
 }
 
 .size-eye {
-    color: #FF0000;
+    color: #f000a0;
     font-size: 3rem;
 }
 
 .size-gem {
-    color: #333333;
+    color: #ffc400;
     font-size: 3rem;
+}
+
+.contact-background {
+    background: linear-gradient(45deg, #315280, #0e0ea8);
+}
+
+.btn-primary {
+    background: #04225c;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #45a5ff;
+}
+
+.circulo-lista {
+    list-style-type: circle;
 }

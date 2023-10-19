@@ -21,14 +21,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@800&display=swap" rel="stylesheet">
 
     <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="../assets/css/animate.css" />
-    <link rel="stylesheet" href="../node_modules/tiny-slider/dist/tiny-slider.css" />
-    <link rel="stylesheet" href="../node_modules/glightbox/dist/css/glightbox.min.css" />
-    <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="node_modules/tiny-slider/dist/tiny-slider.css" />
+    <link rel="stylesheet" href="node_modules/glightbox/dist/css/glightbox.min.css" />
+    <link rel="stylesheet" href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/viewerjs/dist/viewer.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 
 <body>
@@ -63,59 +65,67 @@
                             <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
                                 <ul id="nav" class="navbar-nav ms-auto">
                                     <li class="nav-item">
-                                        <a class="dd-menu collapsed" href="index.html"
-                                            aria-label="Toggle navigation">Inicio</a>
+                                        <a href="index.html">Inicio</a>
                                     </li>
                                     <li class="nav-item">
-										<a class=" dd-menu collapsed" href="javascript:void(0)"
-											data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
-											aria-controls="navbarSupportedContent" aria-expanded="false"
-											aria-label="Toggle navigation">Productos</a>
-										<ul class="sub-menu mega-menu collapse" id="submenu-1-4">
-											<h3 class="text-center">Lista de soluciones</h3>
-											<li class="single-block">
-												<ul class="sub-menu mega-menu collapse" id="submenu-1-4">
-                                                    <h3 class="text-center">Lista de soluciones</h3>
-                                                    <li class="single-block">
-                                                        <ul>
-                                                            <li class="nav-item"><a href="Productos/Cajas.html">Cajas</a></li>
-                                                            <li class="nav-item"><a href="Productos/Encortinados_Laterales.html">Encortinados
-                                                                    laterales</a>
-                                                            </li>
-                                                            <li class="nav-item"><a href="Productos/Plataformas.html">Plataformas</a>
-                                                            </li>
-                                                            <li class="nav-item"><a href="Productos/Lowboys.html">Lowboys</a></li>
-                                                            <li class="nav-item"><a href="Productos/Portacontenedor.html">Chasis
-                                                                    Portacontenedor</a></li>
-                                                            <li class="nav-item"><a href="Productos/Camas_Bajas.html">Camas bajas</a>
-                                                            </li>
-                                                        </ul>
+                                        <a class=" dd-menu collapsed" href="javascript:void(0)"
+                                            data-bs-toggle="collapse" data-bs-target="#submenu-1-4"
+                                            aria-controls="navbarSupportedContent" aria-expanded="false"
+                                            aria-label="Toggle navigation">Productos</a>
+                                        <ul class="sub-menu mega-menu collapse" id="submenu-1-4">
+                                            <h3 class="text-center">Lista de soluciones</h3>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Cajas.html">Cajas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Encortinados_Laterales.html">Encortinados
+                                                            laterales</a>
                                                     </li>
-                                                    <li class="single-block">
-                                                        <ul>
-                                                            <li class="nav-item"><a href="Productos/Volteos.html">Volteos</a>
-                                                            </li>
-                                                            <li class="nav-item"><a href="Productos/Jaulas.html">Jaulas</a></li>
-                                                            <li class="nav-item"><a href="Productos/Carrocerías.html">Carrocerías</a>
-                                                            </li>
-                                                            <li class="nav-item"><a href="Productos/Tanques.html">Tanques</a>
-                                                            </li>
-                                                            <li class="nav-item"><a href="Productos/Dollys.html">Dollys</a>
-                                                        </ul>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Plataformas.html">Plataformas</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Lowboys.html">Lowboys</a>
+                                                    </li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Chasis_Portacontenedor.html">Chasis
+                                                            Portacontenedor</a></li>
+                                                    <li class="nav-item"><a href="Productos/Camas_Bajas.html">Camas
+                                                            bajas</a>
                                                     </li>
                                                 </ul>
-									</li>
+                                            </li>
+                                            <li class="single-block">
+                                                <ul>
+                                                    <li class="nav-item"><a href="Productos/Volteos.html">Volteos</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Jaulas.html">Jaulas</a></li>
+                                                    <li class="nav-item"><a
+                                                            href="Productos/Carrocerías.html">Carrocerías</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Tanques.html">Tanques</a>
+                                                    </li>
+                                                    <li class="nav-item"><a href="Productos/Dollies.html">Dollies</a>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
                                     <li class="nav-item">
                                         <a href="Nosotros.html" aria-label="Toggle navigation">Nosotros</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="active" aria-label="Toggle navigation">Contacto</a>
+                                        <a href="Proceso.html" aria-label="Toggle navigation">Proceso</a>
                                     </li>
                                     <li class="nav-item">
-										<a href="#" aria-label="Toggle navigation">Blog</a>
-									</li>
+                                        <a href="#" class=" active dd-menu collapsed"
+                                            aria-label="Toggle navigation">Contacto</a>
+                                    </li>
+
+                                    <!--li class="nav-item">
+                                        <a href="#" aria-label="Toggle navigation">Blog</a>
+                                    </li-->
                                 </ul>
                             </div> <!-- navbar collapse -->
+
 
                         </nav> <!-- navbar -->
                     </div>
@@ -143,7 +153,7 @@
         </div>
     </div>
     <!-- End Breadcrumbs -->
-    <section>
+    <!--section class="pb-5">
         <div class="parallax d-flex justify-content-center align-items-center mb-5">
             <div class="text-center bg-white-color pt-3 ps-2 pe-2 rounded-3">
                 <nav aria-label="breadcrumb">
@@ -153,166 +163,285 @@
                     </ol>
                 </nav>
             </div>
-        </div>
-        <div class="row m-1">
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <div class="container border pt-3 mb-4">
-                    <div class="">
-                        <p class="text-center lead alegreya-bold"><strong>CONTACTO </strong><strong
-                                class="text-blue">PUEBLA</strong></p>
-                        <hr>
-                        <p class="text-center"><strong><i
-                                    class="bi bi-geo-alt-fill text-blue"></i></strong><strong>Dirección:</strong>
-                            Carril de San Cristóbal 126, Chachapa, 72990, Amozoc, Puebla.<strong></strong></p>
-                        <p class="text-center"><strong><i class="bi bi-envelope-at-fill"></i>
-                            </strong><strong>E-mail: </strong><strong><a class="text-blue"
-                                    href="mailto:ventas@transtools.com.mx">ventas@transtools.com.mx</a></strong>
-                        </p>
-                        <p class="text-center"><strong><i class="bi bi-telephone-fill mx-1"></i>Teléfono:</strong>
-                            <strong><a class="text-blue" href="tel:2222866275">222 286 6275</a></strong>
-                        </p>
-                        <br>
+        </div-->
+    <div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15083.284505039665!2d-98.09728090000002!3d19.071600600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfeb9174f56afd%3A0xd2d27ed10680810!2sTRANSTOOLS%20MANUFACTURING%20S.A.%20DE%20C.V!5e0!3m2!1ses-419!2smx!4v1682084073203!5m2!1ses-419!2smx"
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </div>
+    </section>
+    <!-- The contact form -->
+    <section class="contact-background pt-5 pb-5">
+        <div class="mx-3">
+            <div class="container bg-white rounded-4">
+                <div class="row">
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+                        <div class="container-fluid pt-3 pb-3">
+                            <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                        aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                        aria-label="Slide 3"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
+                                        aria-label="Slide 4"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="5000">
+                                        <img src="img/contact_1.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="text-white alegreya-bold pb-2">Experiencia</h5>
+                                            <p class="alegreya-bold text-justify">2 generaciones de tradición,
+                                                preparación técnica y una alta pasión por lo
+                                                que hacemos nos respaldan.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="img/contact_2.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="text-white alegreya-bold">Versatilidad y adaptabiliad</h5>
+                                            <p class="alegreya-bold">Nuestros semi-remolques están diseñados para
+                                                adaptarse a diferentes tipos de carga.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="5000">
+                                        <img src="img/contact_3.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="text-white">Diseño personalizado</h5>
+                                            <p class="alegreya-bold">Fábricamos soluciones de transporte a la medida.
+                                                Nos ajustamos a tus
+                                                necesidades.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="6000">
+                                        <img src="img/contact_4.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5 class="text-white">Calidad Superior</h5>
+                                            <p class="alegreya-bold">Fábricamos con los mejores materiales del mercado y
+                                                contamos con
+                                                profesionales altamente calificados para volver tus ideas realidad.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            <div class="text-center mt-4">
+                                <h4 class="alegreya-bold"><i class="bi bi-clock-fill"></i> Horarios</h4>
+                                <p class="alegreya-bold text-black">Lunes a Viernes: 08:30 AM - 5:30 PM</p>
+                                <p class="alegreya-bold text-black">Sábados: 08:30 AM - 02:00 PM <br> y Domingos:
+                                    Cerrado</p>
+                            </div>
+                            <hr>
+                            <div class="text-center">
+                                <h4 class="alegreya-bold mb-2">Cotiza con nosotros</h4>
+                            </div>
+                            <p class="text-justify alegreya-bold text-black"><i
+                                    class="bi bi-telephone-inbound-fill text-blue"></i>
+                                Teléfono: <span class="text-blue">(222)
+                                    286 6275</span>
+                            </p>
+                            <p class="text-justify alegreya-bold text-black"><i
+                                    class="bi bi-envelope-at-fill text-blue"></i>
+                                Correo
+                                electrónico: <span class="text-blue">ventas@transtools.com.mx</span>
+                            </p>
+                            <p class="alegreya-bold text-black"><i class="bi bi-geo-alt-fill text-blue"></i> Ciudad:
+                                <STRONG class="text-blue">Carril de
+                                    San Cristóbal No.126, Chachapa, C.P.72990, Amozoc, Puebla.</STRONG>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xxl-6">
+                        <h1 class="text-center">Contacto</h1>
+                        <form id="contactForm">
+                            <!-- Campos del formulario -->
+                            <div class="m-3">
+                                <label for="nombre" class="form-label">Nombre completo:</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre"
+                                    autocomplete="off">
+                            </div>
+                            <div class="m-3">
+                                <label for="telefono" class="form-label">Teléfono:</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Escribe tu teléfono"
+                                    autocomplete="off">
+                            </div>
+                            <div class="m-3">
+                                <label for="correo" class="form-label">Correo electrónico:</label>
+                                <input type="text" class="form-control" id="correo"
+                                    placeholder="Escribe tu correo electrónico" autocomplete="off">
+                            </div>
+                            <div class="m-3">
+                                <label for="producto" class="form-label">Producto de interés:</label>
+                                <select class="form-select" id="producto">
+                                    <option value="">Selecciona un producto</option>
+                                    <option value="Caja">Caja</option>
+                                    <option value="Encortinado lateral">Encortinado lateral</option>
+                                    <option value="Plataforma">Plataforma</option>
+                                    <option value="Lowboy">Lowboy</option>
+                                    <option value="Chasis portacontenedor">Chasis portacontenedor</option>
+                                    <option value="Cama Baja">Cama Baja</option>
+                                    <option value="Volteo">Volteo</option>
+                                    <option value="Jaula">Jaula</option>
+                                    <option value="Carrocería">Carrocería</option>
+                                    <option value="Dolly">Dolly</option>
+                                </select>
+                            </div>
+                            <div class="m-3">
+                                <label for="ciudad" class="form-label" autocomplete="off">Ciudad:</label>
+                                <input type="text" class="form-control" id="ciudad" placeholder="Escribe tu ciudad"
+                                    autocomplete="off">
+                            </div>
+                            <div class="m-3">
+                                <label for="mensaje" class="form-label">Mensaje:</label>
+                                <textarea class="form-control" id="mensaje" rows="5"
+                                    placeholder="Escribe tu mensaje"></textarea>
+                            </div>
+                            <div class="m-3 d-grid gap-2">
+                                <button type="submit" class="btn btn-primary" type="button">Enviar</button>
+                            </div>
+                        </form>
+
                     </div>
                 </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15083.284505039665!2d-98.09728090000002!3d19.071600600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfeb9174f56afd%3A0xd2d27ed10680810!2sTRANSTOOLS%20MANUFACTURING%20S.A.%20DE%20C.V!5e0!3m2!1ses-419!2smx!4v1682084073203!5m2!1ses-419!2smx"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <div class="container border pt-3 mb-4">
-                    <div class="">
-                        <p class="text-center lead alegreya-bold"><strong>CONTACTO </strong><strong
-                                class="text-blue">TLAXCALA</strong></p>
-                        <hr>
-                        <p class="text-center"><strong><i
-                                    class="bi bi-geo-alt-fill text-blue"></i></strong><strong>Dirección:</strong>
-                            Carretera México-Veracruz KM175 S/N, Mazatepec, 90570 Villa de el Carmen Tequexquitla,
-                            Tlax.<strong></strong></p>
-                        <p class="text-center"><strong><i class="bi bi-envelope-at-fill"></i>
-                            </strong><strong>E-mail: </strong><strong><a class="text-blue"
-                                    href="mailto:ventas@transtools.com.mx">ventas@transtools.com.mx</a></strong>
-                        </p>
-                        <p class="text-center"><strong><i class="bi bi-telephone-fill mx-1"></i>Teléfono:</strong>
-                            <strong><a class="text-blue" href="tel:2764775454">276 477 5454</a></strong>
-                        </p>
-                    </div>
-                </div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3765.1458530058817!2d-97.64247382570399!3d19.319476281935827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c5533721d43f59%3A0x5922cc83b050ae13!2sTranstools%20Manufacturing!5e0!3m2!1ses-419!2smx!4v1682108017435!5m2!1ses-419!2smx"
-                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>
-   <!-- Start Footer Area -->
-	<footer class="footer mt-4">
-		<!-- Start Footer Top -->
-		<div class="footer-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Widget -->
-						<div class="single-footer f-link">
-							<h3>Ubicaciones</h3>
-							<div class="row">
-								<div class="col-lg-6 col-md-6 col-12">
-									<ul>
-										<li><a href="javascript:void(0)">Puebla</a></li>
-										<li><a href="javascript:void(0)">Tlaxcala</a></li>
-									</ul>
-								</div>
-								<div class="col-lg-6 col-md-6 col-12">
-									<ul>
-										<li><a href="javascript:void(0)">Amozoc de Mota</a></li>
-										<li><a href="javascript:void(0)">El Carmen Tequexquitla</a></li>
-								</div>
-							</div>
-						</div>
-						<!-- End Single Widget -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Widget -->
-						<div class="single-footer f-link">
-							<h3>Enlaces Rápidos</h3>
-							<ul>
-								<li><a href="index.html">Inicio</a></li>
-								<li><a href="Nosotros.html">Nosotros</a></li>
-								<li><a href="javascript:void(0)">Blog</a></li>
-							</ul>
-						</div>
-						<!-- End Single Widget -->
-					</div>
-					<div class="col-lg-4 col-md-6 col-12">
-						<!-- Single Widget -->
-						<div class="single-footer f-contact">
-							<h3>Contacto</h3>
-							<ul>
-								<li>Carril de San Cristóbal #126, Chachapa, 72990<br> Amozoc, Puebla</li>
-								<li>Tel. (222) 286 6275 <br> E-mail. ventas@transtools.com.mx</li>
-							</ul>
-						</div>
-						<!-- End Single Widget -->
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--/ End Footer Middle -->
-		<!-- Start Footer Bottom -->
-		<div class="footer-bottom">
-			<div class="container">
-				<div class="inner">
-					<div class="row">
-						<div class="col-12">
-							<div class="content">
-								<ul class="footer-bottom-links">
-									<li><a href="javascript:void(0)">Términos de uso</a></li>
-									<li><a href="javascript:void(0)"> Política de privacidad</a></li>
-									<li><a href="javascript:void(0)">Google maps</a></li>
-								</ul>
-								<ul class="footer-social">
-									<li><a href="https://www.facebook.com/TranstoolsManufacturing/" target="_blank"><i
-												class="lni lni-facebook-filled"></i></a></li>
-									<li><a href="https://www.instagram.com/transtoolsmanufacturing/" target="_blank"><i
-												class="bi bi-instagram"></i></a></li>
-									<li><a
-											href="https://www.linkedin.com/company/transtoolsmexicopuebla/?originalSubdomain=mx" target="_blank"><i
-												class="lni lni-linkedin-original"></i></a></li>
-								</ul>
-								<p class="copyright-text"><strong class="text-black alegreya-bold">TRANS</strong><strong class="alegreya-bold text-blue">TOOLS</strong>
-									<strong class="text-black alegreya-bold">MANUFACTURING</strong> © 2023. Todos los
-									derechos reservados.
-								</p>
-								<br>
-								<br>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- End Footer Middle -->
-	</footer>
-	<!--/ End Footer Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>Ubicaciones</h3>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Puebla</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">Tlaxcala</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-12">
+                                    <ul>
+                                        <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                                target="_blank">Amozoc de Mota</a></li>
+                                        <li><a href="https://goo.gl/maps/5TdWdnMHZSGSqWYb7?coh=178571&entry=tt"
+                                                target="_blank">El Carmen Tequexquitla</a></li>
+                                        <li><a href="https://goo.gl/maps/m3rtksEfKTyp455N7?coh=178571&entry=tt"
+                                                target="_blank">Veracruz</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-link">
+                            <h3>Enlaces Rápidos</h3>
+                            <ul>
+                                <li><a href="index.html">Inicio</a></li>
+                                <li><a href="Nosotros.html">Nosotros</a></li>
+                                <li><a href="Proceso.html">Proceso</a></li>
+                                <!--li><a href="javascript:void(0)">Blog</a></li-->
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-contact">
+                            <h3>Contacto</h3>
+                            <ul>
+                                <li>Carril de San Cristóbal #126, Chachapa, 72990<br> Amozoc, Puebla</li>
+                                <li>Tel. (222) 286 6275 <br> E-mail. ventas@transtools.com.mx</li>
+                            </ul>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Middle -->
+        <!-- Start Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="content">
+                                <ul class="footer-bottom-links">
+                                    <li><a href="Aviso_de_Privacidad.html"> Política de privacidad</a></li>
+                                    <li><a href="https://goo.gl/maps/Cap6qMKDJx1YeASg9?coh=178571&entry=tt"
+                                            target="_blank">Google maps</a></li>
+                                </ul>
+                                <ul class="footer-social">
+                                    <li><a href="https://www.facebook.com/TranstoolsManufacturing/" target="_blank"><i
+                                                class="lni lni-facebook-filled"></i></a></li>
+                                    <li><a href="https://www.instagram.com/transtoolsmanufacturing/" target="_blank"><i
+                                                class="bi bi-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/company/transtoolsmexicopuebla/?originalSubdomain=mx"
+                                            target="_blank"><i class="lni lni-linkedin-original"></i></a></li>
+                                </ul>
+                                <p class="copyright-text"><strong class="text-black alegreya-bold">TRANS</strong><strong
+                                        class="alegreya-bold text-blue">TOOLS</strong>
+                                    <strong class="text-black alegreya-bold">MANUFACTURING</strong> © 2023. Todos los
+                                    derechos reservados.
+                                </p>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Footer Middle -->
+    </footer>
+    <!--/ End Footer Area -->
     <!-- ========================= scroll-top ========================= -->
     <a href="#" class="scroll-top btn-hover">
         <i class="lni lni-chevron-up"></i>
     </a>
     <div>
-        <a href="https://wa.me/+527352065016" class="whatsapp-float" target="_blank" title="Contactar">
+        <a href="https://wa.me/+522229000107" class="whatsapp-float" target="_blank" title="Contactar">
             <i class="bi bi-whatsapp"></i>
         </a>
     </div>
 
     <!-- ========================= JS here ========================= -->
-    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../node_modules/wow.js/dist/wow.min.js"></script>
-    <script src="../node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
-    <script src="../node_modules/glightbox/dist/js/glightbox.min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="node_modules/tiny-slider/dist/min/tiny-slider.js"></script>
+    <script src="node_modules/glightbox/dist/js/glightbox.min.js"></script>
+    <script src="node_modules/easing/easing.min.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
+    <script src="node_modules/waypoints/src/waypoint.js"></script>
+    <script src="node_modules/counterup/counterup.min.js"></script>
+    <script src="node_modules/viewerjs/dist/viewer.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="js/main.js"></script>
     <script type="text/javascript">
-        document.cookie = 'same-site-cookie=foo; SameSite=Lax';
-        document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
         //========= glightbox
         GLightbox({
             'href': '',
@@ -323,6 +452,283 @@
         });
     </script>
 </body>
+<script>
+    // Establecer la cookie "same-site-cookie" con SameSite=Lax
+    document.cookie = 'same-site-cookie=foo; SameSite=Lax';
 
+    // Establecer la cookie "cross-site-cookie" con SameSite=None y Secure
+    document.cookie = 'cross-site-cookie=bar; SameSite=None; Secure';
+
+    const mondayAPIUrl = "https://api.monday.com/v2/boards/";
+    const mondayAPIToken = "eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y";
+    const boardId = "4524280761";
+    document.getElementById('contactForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Evita que se envíe el formulario de manera predeterminada
+        //const formData = new FormData(form);
+        // console.log(formData)
+        let query2 = "query { boards (ids: 4715652933) { groups { title id }}}";
+
+        fetch("https://api.monday.com/v2", {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+            },
+            body: JSON.stringify({
+                query: query2
+            })
+        })
+            .then(res => res.json())
+            .then(res => console.log(JSON.stringify(res, null, 2)));
+        let query1 = "query {boards (ids: 4715652933) { columns { id title }}}";
+
+        fetch("https://api.monday.com/v2", {
+            method: 'post',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+            },
+            body: JSON.stringify({
+                'query': query1
+            })
+        })
+            .then(res => res.json())
+            .then(res => console.log(JSON.stringify(res, null, 2)));
+        // Obtén los valores de los campos utilizando getElementById
+        /* var nombre = document.getElementById('nombre').value;
+         var telefono = document.getElementById('telefono').value;
+         var correo = document.getElementById('correo').value;
+         var producto = document.getElementById('producto').value;
+         var ciudad = document.getElementById('ciudad').value;
+         var mensaje = document.getElementById('mensaje').value;
+ 
+         // Expresiones regulares para validar correo y número de teléfono
+         var regexCorreo = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+         var regexTelefono = /^\d{10}$/;
+ 
+         // Validar correo y número de teléfono
+         var correoValido = regexCorreo.test(correo);
+         var telefonoValido = regexTelefono.test(telefono);
+         if (nombre != "" && telefono != "" && correo != "" && producto != "" && ciudad != "" && mensaje != "") {
+             if (!correoValido) {
+                 Swal.fire(
+                     '¡Por favor ingresa un correo electrónico válido!',
+                     '',
+                     'warning'
+                 )
+             } else {
+                 if (!telefonoValido) {
+                     Swal.fire(
+                         '¡Por favor ingresa un número de teléfono válido (10 digítos)!',
+                         '',
+                         'warning'
+                     )
+                 } else {
+                     let query = "mutation { create_item (board_id: 4527036298, group_id: \"topics\", item_name: \"Posible cliente\") { id }}";
+ 
+                     fetch("https://api.monday.com/v2", {
+                         method: 'post',
+                         headers: {
+                             'Content-Type': 'application/json',
+                             'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+                         },
+                         body: JSON.stringify({
+                             query: query
+                         })
+                     })
+                         .then(res => res.json())
+                         .then(res => {
+                             //console.log(res);
+                             if (Array.isArray(res.errors)) {
+                                 // La respuesta contiene un arreglo "error"
+                                 Swal.fire(
+                                     '¡Error en la respuesta!',
+                                     res.errors[0].message,
+                                     'error'
+                                 )
+                                 //alert('Error en la respuesta: ' + res.errors[0].message);
+                                 console.log(res.errors[0].message)
+                             } else {
+                                 var item_id = res.data.create_item.id;
+                                 var board_id = 4527036298;
+                                 var columnValues = {
+                                     texto: nombre,
+                                     texto0: correo,
+                                     texto1: telefono,
+                                     texto2: producto,
+                                     texto6: ciudad,
+                                     texto3: mensaje
+                                 };
+ 
+                                 // Convertir el objeto a una cadena JSON escapando las comillas dobles
+                                 var columnValuesJSON = JSON.stringify(columnValues).replace(/"/g, '\\"');
+ 
+                                 // Crear la cadena de consulta GraphQL con las variables de JavaScript
+                                 var query = `mutation {change_multiple_column_values(item_id: ${item_id},board_id: ${board_id},column_values: "${columnValuesJSON}") {id}}`;
+                                 fetch("https://api.monday.com/v2", {
+                                     method: 'post',
+                                     headers: {
+                                         'Content-Type': 'application/json',
+                                         'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+                                     },
+                                     body: JSON.stringify({
+                                         'query': query
+                                     })
+                                 })
+                                     .then(res => res.json())
+                                     .then(res => {
+                                         if (Array.isArray(res.errors)) {
+                                             // La respuesta contiene un arreglo "error"
+                                             Swal.fire(
+                                                 '¡Error en la respuesta!',
+                                                 res.errors[0].message,
+                                                 'error'
+                                             )
+                                             //alert('Error en la respuesta: ' + res.errors[0].message);
+                                             console.log(res.errors[0].message)
+                                         } else {
+                                             Swal.fire(
+                                                 '¡Datos enviados con éxito!',
+                                                 'Pronto nos estaremos contactando con usted, ¡Agradecemos su interés!',
+                                                 'success'
+                                             )
+                                             // Limpiar los campos del formulario
+                                             document.getElementById('nombre').value = '';
+                                             document.getElementById('telefono').value = '';
+                                             document.getElementById('correo').value = '';
+                                             document.getElementById('producto').value = '';
+                                             document.getElementById('ciudad').value = '';
+                                             document.getElementById('mensaje').value = '';
+                                         }
+                                     });
+                             }
+ 
+                         });
+                 }
+             }
+ 
+         } else {
+             Swal.fire(
+                 '¡Por favor llena todos los campos!',
+                 '',
+                 'warning'
+             )
+         }*/
+
+
+
+    });
+
+    /*const form = document.getElementById("myForm");
+
+    form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        console.log(formData)
+        /*  let query2 = "query { boards (ids: 4527036298) { groups { title id }}}";
+  
+          fetch("https://api.monday.com/v2", {
+              method: 'post',
+              headers: {
+                  'Content-Type': 'application/json',
+                  'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+              },
+              body: JSON.stringify({
+                  query: query2
+              })
+          })
+              .then(res => res.json())
+              .then(res => console.log(JSON.stringify(res, null, 2)));*/
+    /*let query1 = "query {boards (ids: 4527036298) { columns { id title }}}";
+
+    fetch("https://api.monday.com/v2", {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+        },
+        body: JSON.stringify({
+            'query': query1
+        })
+    })
+        .then(res => res.json())
+        .then(res => console.log(JSON.stringify(res, null, 2)));
+    /* let query = "mutation { create_item (board_id: 4527036298, group_id: \"topics\", item_name: \"new item\") { id }}";
+ 
+     fetch("https://api.monday.com/v2", {
+         method: 'post',
+         headers: {
+             'Content-Type': 'application/json',
+             'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+         },
+         body: JSON.stringify({
+             query: query
+         })
+     })
+         .then(res => res.json())
+         .then(res => {
+             console.log(res);
+             if (Array.isArray(res.errors)) {
+                 // La respuesta contiene un arreglo "error"
+                 alert('Error en la respuesta: ' + res.errors[0].message);
+                 console.log(res.errors[0].message)
+                 // Realiza acciones adicionales con el arreglo "error" aquí
+             } else {
+                 var query = "mutation {change_multiple_column_values (item_id: 1234567890, board_id: 9876543210, column_values: \"{\\\"status\\\": {\\\"index\\\": 1},\\\"date4\\\": {\\\"date\\\":\\\"2021-01-01\\\"}, \\\"person\\\" : {\\\"personsAndTeams\\\":[{\\\"id\\\":9603417,\\\"kind\\\":\\\"person\\\"}]}}\") {id}}";
+ 
+                 fetch("https://api.monday.com/v2", {
+                     method: 'post',
+                     headers: {
+                         'Content-Type': 'application/json',
+                         'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+                     },
+                     body: JSON.stringify({
+                         'query': query
+                     })
+                 })
+                     .then(res => res.json())
+                     .then(res => console.log(JSON.stringify(res, null, 2)));
+             }
+ 
+         });
+    var nombre = 'rodrigo';
+    var email = 'rodrigo@gmail.com';
+    var item_id = 4527284243;
+    var board_id = 4527036298;
+    // Crear el objeto de column_values con las variables de JavaScript
+    var columnValues = {
+        texto: nombre,
+        texto0: email
+    };
+
+    // Convertir el objeto a una cadena JSON escapando las comillas dobles
+    var columnValuesJSON = JSON.stringify(columnValues).replace(/"/g, '\\"');
+
+    // Crear la cadena de consulta GraphQL con las variables de JavaScript
+    var query = `mutation {
+change_multiple_column_values(
+item_id: ${item_id},
+board_id: ${board_id},
+column_values: "${columnValuesJSON}"
+) {
+id
+}
+}`;
+    fetch("https://api.monday.com/v2", {
+        method: 'post',
+        headers: {
+            'Content-Type': 'application/json',
+            'Authorization': 'eyJhbGciOiJIUzI1NiJ9.eyJ0aWQiOjI1ODI3NzEwNywiYWFpIjoxMSwidWlkIjoyOTM3MDk5NCwiaWFkIjoiMjAyMy0wNS0yM1QyMTo1ODozMC4wMDBaIiwicGVyIjoibWU6d3JpdGUiLCJhY3RpZCI6MTA5Mjg0OTUsInJnbiI6InVzZTEifQ.3cHVOg7QPEXQn-ufOWCtHl8abzYSUjOjMc1ooJszc6Y'
+        },
+        body: JSON.stringify({
+            'query': query
+        })
+    })
+        .then(res => res.json())
+        .then(res => console.log(JSON.stringify(res, null, 2)));
+});*/
+
+</script>
 
 </html>
